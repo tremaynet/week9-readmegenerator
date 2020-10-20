@@ -105,7 +105,7 @@ var generateREADME = (input_data) => {
     * [github link](https://github.com/${input_data.github_username})
     `;
 
-    fs.writeFile("README.md", README, err => {
+    fs.writeFile("README1.md", README, err => {
         if (err) {
             console.log(err);
         } else {
